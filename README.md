@@ -88,8 +88,8 @@ Basically, WebView turns application into a web application.
          btn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                  String url = edt.getText().toString();
-
+                String url = edt.getText().toString();  //for calling dynamic web means what we give link path of website that only it will display.
+                //String url= "https://github.com/SurajVishwakarma333";  //for calling static web means what we provide/specified our own website link in our code that only it will display.
                   webView.getSettings().setLoadsImagesAutomatically(true);
                   webView.getSettings().setJavaScriptEnabled(true);
                   webView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
