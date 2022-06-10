@@ -104,7 +104,6 @@ Basically, WebView turns application into a web application.
                 view.loadUrl(url);
                 return true;
               }
-
         }
        }
 
