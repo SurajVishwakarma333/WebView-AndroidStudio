@@ -28,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url = edt.getText().toString();
+              String url = edt.getText().toString();  //for calling dynamic web means what we give link path of website that only it will display
+//            String url= "https://github.com/SurajVishwakarma333";  //for calling static web means what we provide/specified our own website link in our code that only it will display.
 
                 webView.getSettings().setLoadsImagesAutomatically(true);
                 webView.getSettings().setJavaScriptEnabled(true);
@@ -37,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
+//If you click on any link inside the webpage of the WebView, that page will not be loaded inside your WebView. In order to do that you need to extend your class from WebViewClient and override its method.
     private class MyBrowser extends WebViewClient {
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
