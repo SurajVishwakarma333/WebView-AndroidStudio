@@ -108,10 +108,8 @@ Basically, WebView turns application into a web application.
         }
        }
 
-        
+https://user-images.githubusercontent.com/101108540/173015053-0d8c971c-71d0-4bef-b57c-fb52416277c9.mp4
 
-
-https://user-images.githubusercontent.com/101108540/173010067-04d65208-48bc-49d7-bb9f-9d28daab1fdd.mp4
 
 # Wants to call static/Personal/Specific web instead of dynamic web just edit and put this line of code ? 
 
