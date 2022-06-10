@@ -5,7 +5,7 @@ This class is the basis upon which you can roll your own web browser or simply u
 
 Basically, WebView turns application into a web application.
 
-# Steps 
+# Steps for Calling Dynamic Web in our Activity
 
 1. Add internet permission in manifest file.
 
@@ -111,6 +111,9 @@ Basically, WebView turns application into a web application.
 
 
 https://user-images.githubusercontent.com/101108540/173010067-04d65208-48bc-49d7-bb9f-9d28daab1fdd.mp4
+
+# Wants to call static/Personal web ? 
+# Steps for Calling Static Web in our Activity
 
 
 
