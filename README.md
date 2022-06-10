@@ -6,7 +6,9 @@ This class is the basis upon which you can roll your own web browser or simply u
 Basically, WebView turns application into a web application.
 
 # Steps 
+
 1. Add internet permission in manifest file.
+
              <uses-permission android:name="android.permission.INTERNET"/>
              
 2. .xml file.
