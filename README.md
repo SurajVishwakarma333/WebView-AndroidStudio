@@ -97,7 +97,8 @@ Basically, WebView turns application into a web application.
               }
            });
         }
-
+        //If you click on any link inside the webpage of the WebView, that page will not be loaded inside your WebView. 
+        //In order to do that you need to extend your class from WebViewClient and override its method. 
         private class MyBrowser extends WebViewClient {
               @Override
               public boolean shouldOverrideUrlLoading(WebView view, String url) {
